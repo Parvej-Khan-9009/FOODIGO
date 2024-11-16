@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollBar::-webkit-scrollbar{
+    display: none;
+}
+.no-scrollBar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.gredient{
+    background: linear-gradient(to bottom, rgb(255, 255, 255, 0) 60%, rgba(0,0,0))
+}
+
+@keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .shimmer-animation {
+    animation: shimmer 2s infinite linear;
+  }
