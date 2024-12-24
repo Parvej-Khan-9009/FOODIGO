@@ -1,0 +1,1 @@
+#Fully functional food delivery web application inspired by Swiggy. Integrated Swiggy's live API to fetch real-time restaurant data, built a live search feature, implemented advanced cart management, and ensured responsive design for all devices.
